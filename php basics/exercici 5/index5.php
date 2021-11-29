@@ -8,6 +8,7 @@ $impares[] = 21;
 
 //fusiono los dos arrays
 $fusionados = array_merge ($pares,$impares);
+echo count ($fusionados); //tamaño del array
 echo "<pre>"; //me permite ver de manera ordenada la información
 var_dump ($fusionados);//imprimo por pantalla el array resultante valor por valor y su tamaño
 
