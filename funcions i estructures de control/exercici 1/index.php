@@ -2,12 +2,19 @@
 
 $edad = 48;
 
-
-if ($edad%2 == 0) {
-    echo "$edad es un número par";
-} else {
-    echo "$edad es un número impar";
+function par_o_impar ($valor){
+    if ($valor %2 == 0) {
+        echo "$valor es par";
+    } else {
+        echo "$valor es impar";
+    
+    }
+    
 }
+
+par_o_impar ($edad);
+
+
 
 
 ?>
