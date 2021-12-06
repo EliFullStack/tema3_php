@@ -1,16 +1,16 @@
 <?php
 
-$nota = 0.44;
+$nota = 0.59;
 
-function amagatall ($i) {
+function verificar_grau ($n) {
 
-    if ($i >= 0.60) {
+    if ($n >= 0.60) {
         echo "El grau es Primera Divisió. <br>";
     } 
-    elseif ($i >= 0.45 && $i < 0.60) {
+    elseif ($n >= 0.45) {
         echo "El grau es Segona Divisió. <br>";
     } 
-    elseif ($i >= 0.33 & $i < 0.45) {
+    elseif ($n >= 0.33) {
         echo "El grau es Tercera Divisió. <br>";
     } 
     else {
@@ -19,7 +19,7 @@ function amagatall ($i) {
     
 }  
 
-amagatall ($nota);
+verificar_grau ($nota);
 
 
 ?>

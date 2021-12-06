@@ -4,13 +4,10 @@ $contador = 1;
 
 function amagatall ($i) {
 
-    while ($i <= 20) {
+    do {
         echo $i."<br>";
         $i++;
-        if ($i > 15) {
-            break;
-        }
-    }
+    } while ($i <= 15);
 }
 
 amagatall ($contador);

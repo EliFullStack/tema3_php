@@ -2,16 +2,16 @@
 
 $probalilidad = 50;
 
-function isBitten ($num) {
+function isBitten ($prob) {
 
-   if ($num == rand (0,100)) {
-        echo "$num, TRUE";
+   if ($prob == rand (50,50)) {
+        echo "$prob, TRUE";
     } else {
         echo "FALSE";
     }
 
 }
 
-isBitten ($probalilidad);
+isBitten($probalilidad);
 
 ?>
