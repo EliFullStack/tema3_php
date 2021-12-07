@@ -1,11 +1,11 @@
 <?php
 
-$probalilidad = 50;
+$probalilidad = 1;
 
 function isBitten ($prob) {
 
-   if ($prob == rand (50,50)) {
-        echo "$prob, TRUE";
+   if ($prob == rand (0,1)) {
+        echo "TRUE";
     } else {
         echo "FALSE";
     }

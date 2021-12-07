@@ -1,16 +1,18 @@
 <?php
 
 $contador = 1;
+$limite = 9;
 
-function amagatall ($i) {
+function amagatall ($i,$limite) {
 
-    do {
+   do {
         echo $i."<br>";
         $i++;
-    } while ($i <= 15);
+    } while ($i <= $limite);
 }
 
-amagatall ($contador);
+
+amagatall ($contador,$limite);
 
 
 ?>
